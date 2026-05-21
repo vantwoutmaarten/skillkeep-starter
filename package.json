@@ -1,6 +1,6 @@
 {
   "name": "skillkeep-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Three of the SkillKeep agent skills we use most. Installs into ~/.claude/skills/ in one command.",
   "bin": {
     "skillkeep-starter": "bin/skillkeep-starter.js"
