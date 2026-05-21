@@ -10,6 +10,16 @@ SkillKeep is a small catalog of curated agent skills. This starter pack is the f
 
 ## Install
 
+Pick whichever feels right.
+
+With npx (Node 18 or newer):
+
+```sh
+npx skillkeep-starter
+```
+
+With curl:
+
 ```sh
 curl -sSL https://raw.githubusercontent.com/vantwoutmaarten/skillkeep-starter/main/install.sh | bash
 ```
@@ -22,7 +32,7 @@ cd skillkeep-starter
 ./install.sh
 ```
 
-Both paths drop the three skills into `~/.claude/skills/`. Re-running is safe and overwrites in place.
+All three paths drop the same three skills into `~/.claude/skills/`. Re-running is safe and overwrites in place.
 
 ## The three skills
 
