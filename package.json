@@ -1,0 +1,34 @@
+{
+  "name": "skillkeep-starter",
+  "version": "1.0.0",
+  "description": "Three of the SkillKeep agent skills we use most. Installs into ~/.claude/skills/ in one command.",
+  "bin": {
+    "skillkeep-starter": "bin/skillkeep-starter.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE",
+    "NOTICES.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vantwoutmaarten/skillkeep-starter.git"
+  },
+  "homepage": "https://github.com/vantwoutmaarten/skillkeep-starter#readme",
+  "bugs": {
+    "url": "https://github.com/vantwoutmaarten/skillkeep-starter/issues"
+  },
+  "author": "Maarten van Twout (https://github.com/vantwoutmaarten)",
+  "license": "MIT",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "agent",
+    "skillkeep"
+  ]
+}
